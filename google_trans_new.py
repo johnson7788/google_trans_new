@@ -158,6 +158,7 @@ class google_translator:
                             sentence = sentence[0]
                             translate_text += sentence.strip() + ' '
                         translate_text = re.sub("\*\*\*\* ?", "\n",translate_text)
+                        translate_text = re.sub("\* \*\*\* ?", "\n",translate_text)
                         if pronounce == False :
                             return translate_text
                         elif pronounce == True :
