@@ -32,3 +32,4 @@ hs_err_pid*
 *.lock
 .git
 __pycache__
+google_trans_new.egg-info
